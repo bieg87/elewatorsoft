@@ -4,9 +4,8 @@ import * as userController from '../controllers/user-controller.js'
 const router = express.Router()
 
 /**
- * @param {string} path
- * @param {callback}
- *  */
+ * router obsługujący endpoint
+ */
 router.get('/listAllUsers', userController.listAllUsers)
 
 export default router
