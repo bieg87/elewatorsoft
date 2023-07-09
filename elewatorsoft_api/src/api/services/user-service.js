@@ -13,7 +13,7 @@ const listAllUsersService = () => {
   } catch {
     throw new InternalServerError('Internal server error occured!')
   }
-  if (result === undefined) {
+  if (typeof result === 'undefined') {
     throw new InternalServerError('Internal server error occured!')
   }
 
