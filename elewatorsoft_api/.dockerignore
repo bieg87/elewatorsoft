@@ -1,0 +1,9 @@
+node_modules
+.git
+*.log
+.yarn
+.cache
+*.md
+!README*.md
+README-secret.md
+.github/
