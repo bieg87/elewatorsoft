@@ -1,3 +1,0 @@
-Elewatorsoft
-
-Zadanie rekrutacyjne
